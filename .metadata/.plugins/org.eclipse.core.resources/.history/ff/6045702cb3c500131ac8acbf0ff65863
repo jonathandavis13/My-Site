@@ -1,0 +1,21 @@
+package models;
+import javax.persistence.*;
+
+import play.db.ebean.*;
+
+import com.avaje.ebean.*;
+public class Experience  extends Model{
+	private double yearsOfExperience;
+	 public Experience(){
+		 
+	 }
+	public double getYearsOfExperience() {
+		return yearsOfExperience;
+	}
+	public void setYearsOfExperience(double yearsOfExperience) {
+		this.yearsOfExperience = yearsOfExperience;
+	}
+	
+	
+
+}

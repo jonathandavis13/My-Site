@@ -1,0 +1,22 @@
+import java.util.List;
+
+
+public class Foo {
+	
+	public static void main(String[] args){
+		fib();
+	}
+	
+	public static List fib(){
+		List<float> list = new ArrayList<float>();
+		float x = 0;
+		float y = 1;
+		for (int i = 0 ; i < 100; i++){
+			x = x + y;
+			y = x - y;
+			System.out.println(x);
+			
+		}
+	}
+
+}

@@ -10,9 +10,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>.link2</name>
+			<name>.link3</name>
 			<type>2</type>
-			<location>/Users/jonathandavis/MySite/zentask/target/scala-2.10/classes_managed</location>
+			<location>/Users/jonathandavis/MySite/mySite/target/scala-2.10/classes_managed</location>
 		</link>
 	</linkedResources>
 </projectDescription>

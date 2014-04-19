@@ -1,0 +1,14 @@
+@(message: String)
+
+@main("Jonathan Davis") {
+
+    <header>
+        <hgroup>
+            <h1>Jonathan Davis</h1>
+            <h2>More to come</h2>
+        </hgroup>
+    </header>
+    
+    
+
+}
