@@ -33,7 +33,9 @@ Seq[Any](format.raw/*1.19*/("""
     <header>
         <hgroup>
             <h1>GitHub</h1>
-            <h2>More to come</h2>
+            <h2>
+            	<a href="https://github.com/jonathandavis13/My-Site">Jonathan's GitHub</a>
+            </h2>
         </hgroup>
     </header>
     
@@ -51,9 +53,9 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Apr 19 16:59:42 EDT 2014
+                    DATE: Sat Apr 19 17:26:55 EDT 2014
                     SOURCE: /Users/jonathandavis/MySite/mySite/app/views/github.scala.html
-                    HASH: fa0bf08428e2c5486caf8ea12a9538137b88539b
+                    HASH: f632156783b1ff3ebe789d5ffd56df64ce9ef514
                     MATRIX: 775->1|886->18|923->21|939->29|978->31
                     LINES: 26->1|29->1|31->3|31->3|31->3
                     -- GENERATED --

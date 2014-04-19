@@ -33,9 +33,24 @@ Seq[Any](format.raw/*1.19*/("""
     <header>
         <hgroup>
             <h1>Education</h1>
-            <h2>More to come</h2>
+            <h2>Bachelor of Science, Computer Science</h2>
+            <h2>Kennesaw State University</h2>
+            <h2>December 2012</h2>
         </hgroup>
     </header>
+    
+    <body>
+        <div class="Courses">
+        Computer Science Courses:<br>
+        	Programming Principles I, Programming Principles II, Object-Oriented Programming, Database Systems, Operating Systems, Introduction to Data Structures, Computer and Network Architecture, Software Engineering, Computer Applications of Discrete Modeling, Concepts of Programming Languages, Advanced Data Communications, Internet Security, Distributed System Development, Web Applications and Script Programming, Cloud Computing, Advanced Object Oriented Software Development, and Sequential and Parallel Algorithms.
+        
+            
+        </div>
+        
+        
+
+        </div>
+    </body>
     
     
 
@@ -51,9 +66,9 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Apr 19 16:59:42 EDT 2014
+                    DATE: Sat Apr 19 19:21:05 EDT 2014
                     SOURCE: /Users/jonathandavis/MySite/mySite/app/views/education.scala.html
-                    HASH: 59a3a9ec0fbe3312e80e4a363f9c3f3b8491d112
+                    HASH: fed53f0180fb91a0e67dde2569291bc4a6cc72b0
                     MATRIX: 778->1|889->18|926->21|942->29|981->31
                     LINES: 26->1|29->1|31->3|31->3|31->3
                     -- GENERATED --
