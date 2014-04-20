@@ -6,4 +6,5 @@
 <fullyQualifiedTypeName name="play.Logger"/>
 <fullyQualifiedTypeName name="FooTest"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="play.mvc.Controller"/>
 </qualifiedTypeNameHistroy>

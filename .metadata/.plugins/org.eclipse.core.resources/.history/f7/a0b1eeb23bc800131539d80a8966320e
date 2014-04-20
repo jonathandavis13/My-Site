@@ -67,5 +67,3 @@ logger.play=INFO
 # Logger provided to your application:
 logger.application=DEBUG
 
-# enable evolutions by default in your application.
-applyEvolutions.default=true
