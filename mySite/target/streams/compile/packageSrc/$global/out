@@ -1,0 +1,31 @@
+[0m[[0minfo[0m] [0mPackaging /Users/jonathandavis/MySite/mySite/target/scala-2.10/mysite_2.10-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	models/Course.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/app/models/Course.java[0m
+[0m[[0mdebug[0m] [0m	models/Institute.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/app/models/Institute.java[0m
+[0m[[0mdebug[0m] [0m	evolutions/default[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/conf/evolutions/default[0m
+[0m[[0mdebug[0m] [0m	evolutions[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/conf/evolutions[0m
+[0m[[0mdebug[0m] [0m	evolutions/default/1.sql[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/conf/evolutions/default/1.sql[0m
+[0m[[0mdebug[0m] [0m	controllers/Jobs.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/app/controllers/Jobs.java[0m
+[0m[[0mdebug[0m] [0m	models/Experience.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/app/models/Experience.java[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/conf/application.conf[0m
+[0m[[0mdebug[0m] [0m	models/Job.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/app/models/Job.java[0m
+[0m[[0mdebug[0m] [0m	controllers/Education.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/app/controllers/Education.java[0m
+[0m[[0mdebug[0m] [0m	models/Skill.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/app/models/Skill.java[0m
+[0m[[0mdebug[0m] [0m	controllers/Application.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/app/controllers/Application.java[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/conf/routes[0m
+[0m[[0mdebug[0m] [0m	controllers/GitHub.java[0m
+[0m[[0mdebug[0m] [0m	  /Users/jonathandavis/MySite/mySite/app/controllers/GitHub.java[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
