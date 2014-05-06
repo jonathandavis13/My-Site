@@ -1,0 +1,15 @@
+package controllers.users;
+
+import models.user.User;
+import play.*;
+import play.mvc.*;
+import static play.data.Form.*;
+import models.user.*;
+
+
+public class Admin extends Controller{
+	public static Result admin(){
+		return ok(admin.render(User.find.all()));
+	}
+
+}

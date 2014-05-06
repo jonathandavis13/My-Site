@@ -3,11 +3,15 @@ package models;
 import java.util.List;
 
 import models.*;
+import models.user.User;
 
 import org.junit.*;
 
+import com.avaje.ebean.Ebean;
+
 import static org.junit.Assert.*;
 import play.Logger;
+import play.libs.Yaml;
 import play.test.WithApplication;
 import static play.test.Helpers.*;
 
@@ -43,4 +47,22 @@ public class ModelTest extends WithApplication{
 		assertEquals(1, results.size());
 		assertEquals("XML", results.get(0).getName());
 	}
+	
+	@Test
+	public void createAndRetrieveUser(){
+		new User("jd@gmail.com", "jd", "secret").save();
+		User jd = User.find.where().eq("email", "jd@gmail.com").findUnique();
+		assertNotNull(jd);
+		assertEquals("jd",jd.name);
+	}
+	
+	@Test
+	public void tryAuthenticateUser(){
+		new User("jd@gmail.com", "jd", "secret").save();
+		assertNotNull(User.authenticate("jd@gmail.com", "secret"));
+		assertNull(User.authenticate("jd@gmail.com", "wrongpassword"));
+		assertNull(User.authenticate("tom@email.com", "secret"));
+	}
+	
+
 }

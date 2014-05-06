@@ -15,13 +15,13 @@
                     <a class="brand" href="@routes.Application.index()">Jonathan Davis</a>
                     <ul class="nav">
                         <li class="@("active".when(nav == "Jobs"))">
-                            <a href="@routes.Jobs.index()">Employment</a>
+                            <a href="@routes.Application.jobs()">Employment</a>
                         </li>
                         <li class="@("active".when(nav == "GitHub"))">
-                            <a href="@routes.GitHub.index()">GitHub</a>
+                            <a href="@routes.Application.gitHub()">GitHub</a>
                         </li>
 						<li class="@("active".when(nav == "Education"))">
-	                        <a href="@routes.Education.index()">Education</a>
+	                        <a href="@routes.Application.education()">Education</a>
 	                    </li>
                     </ul>
                 </div>

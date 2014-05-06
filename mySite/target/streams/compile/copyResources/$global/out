@@ -1,6 +1,8 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
 [0m[[0mdebug[0m] [0m	(/Users/jonathandavis/MySite/mySite/conf/application.conf,/Users/jonathandavis/MySite/mySite/target/scala-2.10/classes/application.conf)[0m
 [0m[[0mdebug[0m] [0m	(/Users/jonathandavis/MySite/mySite/conf/evolutions,/Users/jonathandavis/MySite/mySite/target/scala-2.10/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/Users/jonathandavis/MySite/mySite/conf/initial-data.yml,/Users/jonathandavis/MySite/mySite/target/scala-2.10/classes/initial-data.yml)[0m
 [0m[[0mdebug[0m] [0m	(/Users/jonathandavis/MySite/mySite/conf/routes,/Users/jonathandavis/MySite/mySite/target/scala-2.10/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/jonathandavis/MySite/mySite/conf/test-data.yml,/Users/jonathandavis/MySite/mySite/target/scala-2.10/classes/test-data.yml)[0m
 [0m[[0mdebug[0m] [0m	(/Users/jonathandavis/MySite/mySite/conf/evolutions/default,/Users/jonathandavis/MySite/mySite/target/scala-2.10/classes/evolutions/default)[0m
 [0m[[0mdebug[0m] [0m	(/Users/jonathandavis/MySite/mySite/conf/evolutions/default/1.sql,/Users/jonathandavis/MySite/mySite/target/scala-2.10/classes/evolutions/default/1.sql)[0m

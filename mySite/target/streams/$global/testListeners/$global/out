@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mmodels.ModelTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m createAndRetrieveJob[0m
+[0m[[0minfo[0m] [0m[32m+[0m tryAuthenticateUser[0m
+[0m[[0minfo[0m] [0m[32m+[0m createAndRetrieveUser[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test models.ModelTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.043 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m3 tests, 0 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mcontrollers.LoginTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m authenticateSuccess[0m
+[0m[[0minfo[0m] [0m[32m+[0m authenticateFailure[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test controllers.LoginTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.0 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m2 tests, 0 failures, 0 errors[0m[0m

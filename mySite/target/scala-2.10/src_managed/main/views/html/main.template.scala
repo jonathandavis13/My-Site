@@ -43,13 +43,13 @@ Seq[Any](format.raw/*1.50*/("""
                     <a class="brand" href=""""),_display_(Seq[Any](/*15.45*/routes/*15.51*/.Application.index())),format.raw/*15.71*/("""">Jonathan Davis</a>
                     <ul class="nav">
                         <li class=""""),_display_(Seq[Any](/*17.37*/("active".when(nav == "Jobs")))),format.raw/*17.67*/("""">
-                            <a href=""""),_display_(Seq[Any](/*18.39*/routes/*18.45*/.Jobs.index())),format.raw/*18.58*/("""">Employment</a>
+                            <a href=""""),_display_(Seq[Any](/*18.39*/routes/*18.45*/.Application.jobs())),format.raw/*18.64*/("""">Employment</a>
                         </li>
                         <li class=""""),_display_(Seq[Any](/*20.37*/("active".when(nav == "GitHub")))),format.raw/*20.69*/("""">
-                            <a href=""""),_display_(Seq[Any](/*21.39*/routes/*21.45*/.GitHub.index())),format.raw/*21.60*/("""">GitHub</a>
+                            <a href=""""),_display_(Seq[Any](/*21.39*/routes/*21.45*/.Application.gitHub())),format.raw/*21.66*/("""">GitHub</a>
                         </li>
 						<li class=""""),_display_(Seq[Any](/*23.19*/("active".when(nav == "Education")))),format.raw/*23.54*/("""">
-	                        <a href=""""),_display_(Seq[Any](/*24.36*/routes/*24.42*/.Education.index())),format.raw/*24.60*/("""">Education</a>
+	                        <a href=""""),_display_(Seq[Any](/*24.36*/routes/*24.42*/.Application.education())),format.raw/*24.66*/("""">Education</a>
 	                    </li>
                     </ul>
                 </div>
@@ -93,10 +93,10 @@ Seq[Any](format.raw/*1.50*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Apr 20 09:34:39 EDT 2014
+                    DATE: Tue May 06 12:39:36 EDT 2014
                     SOURCE: /Users/jonathandavis/MySite/mySite/app/views/main.scala.html
-                    HASH: 5eee6008512eb7916042c49b858062b666d114cb
-                    MATRIX: 785->1|927->49|1090->177|1104->183|1159->217|1219->242|1233->248|1299->293|1537->495|1552->501|1594->521|1724->615|1776->645|1853->686|1868->692|1903->705|2022->788|2076->820|2153->861|2168->867|2205->882|2302->943|2359->978|2433->1016|2448->1022|2488->1040|2810->1326|2837->1331|3003->1461|3032->1468
+                    HASH: 267f79d31a35b67d337b0fe02d959d14fe17884a
+                    MATRIX: 785->1|927->49|1090->177|1104->183|1159->217|1219->242|1233->248|1299->293|1537->495|1552->501|1594->521|1724->615|1776->645|1853->686|1868->692|1909->711|2028->794|2082->826|2159->867|2174->873|2217->894|2314->955|2371->990|2445->1028|2460->1034|2506->1058|2828->1344|2855->1349|3021->1479|3050->1486
                     LINES: 26->1|29->1|36->8|36->8|36->8|37->9|37->9|37->9|43->15|43->15|43->15|45->17|45->17|46->18|46->18|46->18|48->20|48->20|49->21|49->21|49->21|51->23|51->23|52->24|52->24|52->24|64->36|64->36|69->41|69->41
                     -- GENERATED --
                 */

@@ -1,0 +1,29 @@
+@(users: List[User])
+
+@main("") {
+
+    <header>
+        <hgroup>
+            <h1>Education</h1>
+            <h2>Bachelor of Science, Computer Science</h2>
+            <h2>Kennesaw State University</h2>
+            <h2>December 2012</h2>
+        </hgroup>
+    </header>
+    
+    <body>
+        <div class="Courses">
+        Computer Science Courses:<br>
+        	Programming Principles I, Programming Principles II, Object-Oriented Programming, Database Systems, Operating Systems, Introduction to Data Structures, Computer and Network Architecture, Software Engineering, Computer Applications of Discrete Modeling, Concepts of Programming Languages, Advanced Data Communications, Internet Security, Distributed System Development, Web Applications and Script Programming, Cloud Computing, Advanced Object Oriented Software Development, and Sequential and Parallel Algorithms.
+        
+            
+        </div>
+        
+        
+
+        </div>
+    </body>
+    
+    
+
+}

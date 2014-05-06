@@ -1,0 +1,30 @@
+@(users: List[models.user.User])
+
+@main("") {
+
+    <header>
+        <hgroup>
+            <h1>Admin Page</h1>
+            <h2>Add/Edit Jobs</h2>
+        </hgroup>
+        
+        <dl id="user">
+        <dt>User</dt>
+        <dd>
+            <a href="@routes.Admin.logout()">Logout</a>
+        </dd>
+    </dl>
+    </header>
+    
+    <article class="jobs">
+    	<ul>
+    	@for(j <- users){
+    		<li>@j.name</li>
+    	}
+    	<ul>
+    	
+    </article>
+    
+    
+
+}

@@ -1,0 +1,6 @@
+!!models.user.User
+	email:		jd@gmail.com
+	name:		JD
+	password:	secret
+	
+	

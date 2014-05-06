@@ -1,0 +1,11 @@
+- !!models.user.User
+    email:      bob@gmail.com
+    name:       Bob
+    password:   secret
+    
+    
+- !!models.user.User
+    email:      joanthandavis13@gmail.com
+    name:       Jonathan
+    password:   secret
+    

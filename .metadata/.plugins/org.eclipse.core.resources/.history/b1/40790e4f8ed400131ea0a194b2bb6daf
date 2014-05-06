@@ -1,0 +1,81 @@
+package models;
+
+import java.util.List;
+
+import models.*;
+import models.user.User;
+
+import org.junit.*;
+
+import com.avaje.ebean.Ebean;
+
+import static org.junit.Assert.*;
+import play.Logger;
+import play.libs.Yaml;
+import play.test.WithApplication;
+import static play.test.Helpers.*;
+
+
+public class ModelTest extends WithApplication{
+	@Before
+	public void setUp(){
+		start(fakeApplication(inMemoryDatabase()));
+	}
+	
+	@Test
+	public void createAndRetrieveJob(){
+		new Job("Accenture").save();
+		Job acc = Job.find.where().eq("company","Accenture").findUnique();
+		assertNotNull(acc);
+		assertEquals("Accenture",acc.getCompany());
+		
+	}
+	
+	//@Test
+	public void findSkillsInvolving(){
+		Job thd = new Job("The Home Depot");
+		thd.save();
+		
+		Skill xml = new Skill("XML");
+		xml.save();
+		thd.addSkill(xml);
+		Logger logger = new Logger();
+		logger.info("\n\n"+thd.toString() +"\n\n"+xml.toString());
+		
+		
+		List<Skill> results = Skill.findSkillsInvolving(thd.getCompany());
+		assertEquals(1, results.size());
+		assertEquals("XML", results.get(0).getName());
+	}
+	
+	@Test
+	public void createAndRetrieveUser(){
+		new User("jd@gmail.com", "jd", "secret").save();
+		User jd = User.find.where().eq("email", "jd@gmail.com").findUnique();
+		assertNotNull(jd);
+		assertEquals("jd",jd.name);
+	}
+	
+	@Test
+	public void tryAuthenticateUser(){
+		new User("jd@gmail.com", "jd", "secret").save();
+		assertNotNull(User.authenticate("jd@gmail.com", "secret"));
+		assertNull(User.authenticate("jd@gmail.com", "wrongpassword"));
+		assertNull(User.authenticate("tom@email.com", "secret"));
+	}
+	
+	@Test
+    public void fullTest() {
+        Ebean.save((List) Yaml.load("test-data.yml"));
+
+        // Count things
+        assertEquals(3, User.find.findRowCount());
+
+        // Try to authenticate as users
+        assertNotNull(User.authenticate("bob@example.com", "secret"));
+        assertNotNull(User.authenticate("jane@example.com", "secret"));
+        assertNull(User.authenticate("jeff@example.com", "badpassword"));
+        assertNull(User.authenticate("tom@example.com", "secret"));
+
+    }
+}

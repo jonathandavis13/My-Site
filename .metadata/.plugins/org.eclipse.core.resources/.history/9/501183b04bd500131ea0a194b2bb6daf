@@ -1,0 +1,23 @@
+@(users: List[models.user.User])
+
+@main("") {
+
+    <header>
+        <hgroup>
+            <h1>Admin Page</h1>
+            <h2>Add/Edit Jobs</h2>
+        </hgroup>
+    </header>
+    
+    <article class="jobs">
+    	<ul>
+    	@for(j <- users){
+    		<li>@j.name</li>
+    	}
+    	<ul>
+    	
+    </article>
+    
+    
+
+}

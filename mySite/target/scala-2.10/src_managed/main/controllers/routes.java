@@ -1,28 +1,22 @@
 // @SOURCE:/Users/jonathandavis/MySite/mySite/conf/routes
-// @HASH:ddb5223d795c7d0dfe8625f4c22ceccde576b7df
-// @DATE:Sun Apr 20 09:34:36 EDT 2014
+// @HASH:c27ee9feea95a52528d6448df79b2cad5d14b943
+// @DATE:Tue May 06 14:25:45 EDT 2014
 
 package controllers;
 
 public class routes {
+public static final controllers.ReverseAdmin Admin = new controllers.ReverseAdmin();
 public static final controllers.ReverseAssets Assets = new controllers.ReverseAssets();
-public static final controllers.ReverseGitHub GitHub = new controllers.ReverseGitHub();
 public static final controllers.ReverseApplication Application = new controllers.ReverseApplication();
-public static final controllers.ReverseJobs Jobs = new controllers.ReverseJobs();
-public static final controllers.ReverseEducation Education = new controllers.ReverseEducation();
 public static class javascript {
+public static final controllers.javascript.ReverseAdmin Admin = new controllers.javascript.ReverseAdmin();
 public static final controllers.javascript.ReverseAssets Assets = new controllers.javascript.ReverseAssets();
-public static final controllers.javascript.ReverseGitHub GitHub = new controllers.javascript.ReverseGitHub();
 public static final controllers.javascript.ReverseApplication Application = new controllers.javascript.ReverseApplication();
-public static final controllers.javascript.ReverseJobs Jobs = new controllers.javascript.ReverseJobs();
-public static final controllers.javascript.ReverseEducation Education = new controllers.javascript.ReverseEducation();
 }
 public static class ref {
+public static final controllers.ref.ReverseAdmin Admin = new controllers.ref.ReverseAdmin();
 public static final controllers.ref.ReverseAssets Assets = new controllers.ref.ReverseAssets();
-public static final controllers.ref.ReverseGitHub GitHub = new controllers.ref.ReverseGitHub();
 public static final controllers.ref.ReverseApplication Application = new controllers.ref.ReverseApplication();
-public static final controllers.ref.ReverseJobs Jobs = new controllers.ref.ReverseJobs();
-public static final controllers.ref.ReverseEducation Education = new controllers.ref.ReverseEducation();
 }
 }
           

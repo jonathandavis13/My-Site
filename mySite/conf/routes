@@ -9,10 +9,19 @@ GET     /                           controllers.Application.index()
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
 # Jobs
-GET     /jobs                     	controllers.Jobs.index()
+GET     /jobs                     	controllers.Application.jobs()
 
 # GitHub
-GET     /github                   	controllers.GitHub.index()
+GET     /github                   	controllers.Application.gitHub()
 
 # Education
-GET     /education              	controllers.Education.index()
+GET     /education              	controllers.Application.education()
+
+# Admin
+GET		/admin						controllers.Admin.admin()
+
+
+# Login
+GET		/login						controllers.Admin.login()
+POST    /login                      controllers.Admin.authenticate()
+GET     /logout                     controllers.Admin.logout()
