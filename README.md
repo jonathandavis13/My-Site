@@ -1,7 +1,4 @@
-My-Site
-=======
-
-My Personal Website
+Site With Play Framework
 
 Right now the information in the front end is hardcoded with no styling.
 
